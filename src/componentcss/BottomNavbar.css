@@ -1,0 +1,96 @@
+
+
+.bottom_nav {
+    position: sticky;
+    bottom: 0;
+    height: 60px;
+    border-top: 1px solid rgba(74, 71, 71, 0.4);
+    position: relative;
+}
+
+.nav {
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    height: 32px;
+}
+.home:hover {
+    scale: 1.05;
+}
+.black_home {
+    height: 31px;
+}
+
+
+
+.explore {
+    height: 32px;
+}
+.explore:hover {
+    scale: 1.05;
+}
+
+
+
+.reels {
+    height: 26px;
+}
+.reels:hover {
+    scale: 1.05;
+}
+
+.upload {
+    height: 26px;
+}
+.upload:hover {
+    scale: 1.05;
+}
+
+.messenger {
+    height: 28px;
+}
+.messenger:hover {
+    scale: 1.05;
+}
+
+.avatar {
+    height: 29px;
+    border-radius: 50%;
+    border: 0.05px solid gray;
+}
+.avatar:hover {
+    scale: 1.05;
+}
+
+
+
+
+.upload_box {
+    background-color: white;
+    height: 230px;
+    border-radius: 10px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separater {
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    height: 0.5px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.create_post_title {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
