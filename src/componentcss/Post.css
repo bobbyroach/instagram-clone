@@ -1,0 +1,163 @@
+button {
+  background-color: white;
+}
+
+
+.post_header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+
+}
+
+.username_display {
+  display: flex;
+  flex-direction: row;
+}
+.username_display .username {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 54px;
+  font-family: helvetica;
+}
+.username_display .img {
+  position: absolute;
+  height: 32px;
+  width: 33px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.delete_post {
+  background-color: white;
+}
+.delete_post:hover {
+  color: red;
+}
+
+
+.post_image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  max-height: 550px;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+
+
+
+
+
+.heart_emblem {
+  height: 27.5px;
+  
+  margin-left: 2px;
+}
+.heart_emblem:hover {
+  opacity: 0.5;
+}
+
+.comment_emblem {
+  height: 30px;
+
+}
+.comment_emblem:hover {
+  opacity: 0.5;
+}
+
+.share_emblem {
+  height: 30px;
+}
+.share_emblem:hover {
+  opacity: 0.5;
+}
+
+.save_emblem {
+  height: 31px;
+  margin-left: 300px;
+}
+.save_emblem:hover {
+  opacity: 0.5;
+}
+
+
+
+
+.like_count {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 11px;
+  font-family: helvetica;
+  margin-top: 8px;
+}
+
+.post_text {
+  font-family: helvetica;
+  font-size: 14px;
+  margin-left: 11px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+
+
+
+.post_comments {
+    margin-top: 10px;
+    padding: 5px 0px 0px 35px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+
+.comment_wrapper {
+    margin-left: 25px;
+    width: 500px;
+}
+
+.comment_input {
+    padding: 5px 120px 5px 5px;
+    font-size: 15px;
+}
+
+
+.x-out_button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: -30px;
+}
+
+
+.x-out {
+  opacity: 0.3;
+  scale: 1.5;
+}
+
+.x-out:after {
+  display: inline-block;
+  content: "\00d7";
+
+}
+
+.x-out_button:hover > div {
+  opacity: 1;
+}
+ 
+  
+  
+
+
+
+
